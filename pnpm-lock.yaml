@@ -21,8 +21,8 @@ importers:
         specifier: ^3.14.0
         version: 3.14.0(@parcel/watcher@2.4.1)(@types/node@22.8.1)(encoding@0.1.13)(eslint@9.14.0(jiti@2.4.0))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.4)(terser@5.34.1)(typescript@5.6.3)(vite@5.4.10(@types/node@22.8.1)(terser@5.34.1))(vue-tsc@2.1.10(typescript@5.6.3))(webpack-sources@3.2.3)
       nuxt-i18n-micro:
-        specifier: ^1.31.4
-        version: 1.31.4(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.10(@types/node@22.8.1)(terser@5.34.1))(webpack-sources@3.2.3)
+        specifier: ^1.31.6
+        version: 1.31.6(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.10(@types/node@22.8.1)(terser@5.34.1))(webpack-sources@3.2.3)
       vue:
         specifier: ^3.5.12
         version: 3.5.12(typescript@5.6.3)
@@ -3099,8 +3099,8 @@ packages:
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
 
-  nuxt-i18n-micro@1.31.4:
-    resolution: {integrity: sha512-I3BY7WZWbzbNulTiGx9ElRcCWfSyvsbrF269Pn3RAdE2AuPozSxGk9Gs7rkD/xEnVqEXGJm/PPBRowRCLUlPmA==}
+  nuxt-i18n-micro@1.31.6:
+    resolution: {integrity: sha512-akr6ovxOiej5yMhJQFTLrviYnibyEs3bCqXP65wdQYJvJ4CbEN++9d/UQWlAf2MGUJHy1Gjg/TLwLAWJ8ryVng==}
 
   nuxt@3.14.0:
     resolution: {integrity: sha512-9RvptD0czK683RcD7tmrYtOk86TiW485gZob/tj1YiLVx+gmKJsq+1+kbl6XTg/cg9mbV9lNfErlCNPgXurs2A==}
@@ -7759,7 +7759,7 @@ snapshots:
 
   nuxi@3.15.0: {}
 
-  nuxt-i18n-micro@1.31.4(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.10(@types/node@22.8.1)(terser@5.34.1))(webpack-sources@3.2.3):
+  nuxt-i18n-micro@1.31.6(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.10(@types/node@22.8.1)(terser@5.34.1))(webpack-sources@3.2.3):
     dependencies:
       '@nuxt/devtools-kit': 1.6.0(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.10(@types/node@22.8.1)(terser@5.34.1))(webpack-sources@3.2.3)
       '@nuxt/kit': 3.14.0(magicast@0.3.5)(rollup@4.24.4)(webpack-sources@3.2.3)
