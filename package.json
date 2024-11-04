@@ -16,7 +16,7 @@
     "@nuxthub/core": "^0.8.5",
     "@unhead/vue": "^1.11.11",
     "nuxt": "^3.14.0",
-    "nuxt-i18n-micro": "^1.31.3",
+    "nuxt-i18n-micro": "^1.31.4",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
