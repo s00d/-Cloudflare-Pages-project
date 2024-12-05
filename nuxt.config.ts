@@ -28,9 +28,16 @@ export default defineNuxtConfig({
     locales: [
       { code: 'en', iso: 'en_EN', displayName: 'English' },
       { code: 'de', iso: 'de_DE', displayName: 'German' },
+      { code: 'fr', iso: 'fr_FR', displayName: 'French' },
+      { code: 'ru', iso: 'ru_RU', displayName: 'Russian' },
     ],
     defaultLocale: 'en',
     includeDefaultLocaleRoute: true,
+    disablePageLocales: true,
+    translationDir: 'locales',
+    fallbackLocale: 'en',
+    meta: false,
+    autoDetectLanguage: false,
   },
 
   // https://eslint.nuxt.com
