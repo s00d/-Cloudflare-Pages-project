@@ -1,9 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // https://nuxt.com/modules
-  extends: [
-    './base',
-  ],
   modules: [
     // '@nuxthub/core',
     'nuxt-i18n-micro',
@@ -30,9 +27,6 @@ export default defineNuxtConfig({
   i18n: {
     locales: [
       { code: 'en', iso: 'en_EN', displayName: 'English' },
-      { code: 'de', iso: 'de_DE', displayName: 'German' },
-      { code: 'fr', iso: 'fr_FR', displayName: 'French' },
-      { code: 'ru', iso: 'ru_RU', displayName: 'Russian' },
       { code: 'es', iso: 'es_ES', displayName: 'Spanish' },
       { code: 'it', iso: 'it_IT', displayName: 'Italian' },
     ],
