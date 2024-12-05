@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   // https://nuxt.com/modules
   modules: [
-    // '@nuxthub/core',
+    '@nuxthub/core',
     'nuxt-i18n-micro',
     '@nuxt/eslint',
   ],
