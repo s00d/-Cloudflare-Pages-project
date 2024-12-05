@@ -33,6 +33,7 @@ export default defineNuxtConfig({
     includeDefaultLocaleRoute: true,
   },
 
+
   // https://eslint.nuxt.com
   eslint: {
     config: {
