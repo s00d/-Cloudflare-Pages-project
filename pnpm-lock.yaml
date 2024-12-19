@@ -21,8 +21,8 @@ importers:
         specifier: ^3.14.1592
         version: 3.14.1592(@parcel/watcher@2.4.1)(@types/node@22.8.1)(encoding@0.1.13)(eslint@9.16.0(jiti@2.4.0))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.4)(terser@5.34.1)(typescript@5.7.2)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1))(vue-tsc@2.1.10(typescript@5.7.2))(webpack-sources@3.2.3)
       nuxt-i18n-micro:
-        specifier: ^1.38.4
-        version: 1.38.4(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1))
+        specifier: ^1.40.0
+        version: 1.40.0(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1))
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.2)
@@ -3149,14 +3149,14 @@ packages:
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
 
-  nuxt-i18n-micro-core@1.0.9:
-    resolution: {integrity: sha512-8ev6mWAbOcmTqJX2BarSkYRKeJ7dtxTkSEySvsWEj7ryqhrhqQDDKhvpHPGvt/yUJWV+Ay9/znh6Ba8kBgBgbA==}
+  nuxt-i18n-micro-core@1.0.10:
+    resolution: {integrity: sha512-5eQHwOTXxGeyhEadNj9UuqnK3NEctepkggIlcFlHq22N8jCZImCQkl9s5lOeR7Q+R8Xk2Vr97j/minGuPXDAtQ==}
 
-  nuxt-i18n-micro-test-utils@1.0.2:
-    resolution: {integrity: sha512-hnVcLZxT48GBjnRuz8L1fYnSSKaih+17yF4BAybQySYGhcnXyzh7ClFinKJ0YMV+GiZEsPhRKvYIlyI/lnhZrQ==}
+  nuxt-i18n-micro-test-utils@1.0.3:
+    resolution: {integrity: sha512-NXm555W+qmYMOUarjutWvOxpxLsjwjUGBqVWm2ZiMc8q5PrCxyNQowIaKsc28Kw07PYgsPTPFc7Ul5rUgXQ1/w==}
 
-  nuxt-i18n-micro@1.38.4:
-    resolution: {integrity: sha512-3HO/6IYItYrtLsW8P5OiZ186PBM0cGM/zUaZFInna0xkiCJpXa+ten7n3qA+ydO7KDmUb2l8loUhQYVeMaWaiQ==}
+  nuxt-i18n-micro@1.40.0:
+    resolution: {integrity: sha512-KnHmNfhmf8WXuRmGTcOPdrzn6pZGO1K4TJS45ZH4mMPP5mOqlv8i4W/ncGRhHTp2gQsC7PW387jH7amqroQJiQ==}
 
   nuxt@3.14.1592:
     resolution: {integrity: sha512-roWAQH4Mb6WY72cNos+YVw0DgTCNAhNygiAMCedM7hbX6ESTR2n3VH7tU0yIWDPe/hfFdii4M4wWTTNHOtS44g==}
@@ -7997,19 +7997,19 @@ snapshots:
 
   nuxi@3.15.0: {}
 
-  nuxt-i18n-micro-core@1.0.9: {}
+  nuxt-i18n-micro-core@1.0.10: {}
 
-  nuxt-i18n-micro-test-utils@1.0.2:
+  nuxt-i18n-micro-test-utils@1.0.3:
     dependencies:
-      nuxt-i18n-micro-core: 1.0.9
+      nuxt-i18n-micro-core: 1.0.10
 
-  nuxt-i18n-micro@1.38.4(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1)):
+  nuxt-i18n-micro@1.40.0(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1)):
     dependencies:
       '@nuxt/devtools-kit': 1.6.3(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1))
       '@nuxt/kit': 3.14.1592(magicast@0.3.5)(rollup@4.24.4)
       chokidar: 3.6.0
-      nuxt-i18n-micro-core: 1.0.9
-      nuxt-i18n-micro-test-utils: 1.0.2
+      nuxt-i18n-micro-core: 1.0.10
+      nuxt-i18n-micro-test-utils: 1.0.3
       sirv: 2.0.4
       ufo: 1.5.4
     optionalDependencies:
