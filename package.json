@@ -15,8 +15,9 @@
     "@nuxt/eslint": "^0.7.2",
     "@nuxthub/core": "^0.8.7",
     "@unhead/vue": "^1.11.13",
+    "@vercel/kv": "^3.0.0",
     "nuxt": "^3.14.1592",
-    "nuxt-i18n-micro": "^1.65.3",
+    "nuxt-i18n-micro": "^1.66.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
