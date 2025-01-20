@@ -24,8 +24,25 @@ export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
   compatibilityDate: '2024-07-30',
 
+  nitro: {
+    storage: {
+      data: {
+        driver: 'vercelKV',
+      },
+    },
+  },
+
   // https://hub.nuxt.com/docs/getting-started/installation#options
-  hub: {},
+  // hub: {},
+
+  // https://eslint.nuxt.com
+  eslint: {
+    config: {
+      stylistic: {
+        quotes: 'single',
+      },
+    },
+  },
 
   i18n: {
     locales: [
@@ -43,14 +60,5 @@ export default defineNuxtConfig({
     fallbackLocale: 'en',
     meta: false,
     autoDetectLanguage: false,
-  },
-
-  // https://eslint.nuxt.com
-  eslint: {
-    config: {
-      stylistic: {
-        quotes: 'single',
-      },
-    },
   },
 })
