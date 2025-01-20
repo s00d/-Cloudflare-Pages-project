@@ -24,14 +24,13 @@ export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
   compatibilityDate: '2024-07-30',
 
-  nitro: {
-    storage: {
-      data: {
-        driver: 'vercelKV',
-      },
-    },
-  },
-
+  // nitro: {
+  //   storage: {
+  //     'i18n-locales': {
+  //       driver: 'vercelKV',
+  //     },
+  //   },
+  // },
 
   // https://hub.nuxt.com/docs/getting-started/installation#options
   // hub: {},

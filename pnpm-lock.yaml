@@ -24,8 +24,8 @@ importers:
         specifier: ^3.14.1592
         version: 3.14.1592(@parcel/watcher@2.4.1)(@types/node@22.8.1)(@upstash/redis@1.34.3)(@vercel/kv@3.0.0)(encoding@0.1.13)(eslint@9.16.0(jiti@2.4.2))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.4)(terser@5.34.1)(typescript@5.7.2)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1))(vue-tsc@2.1.10(typescript@5.7.2))(webpack-sources@3.2.3)
       nuxt-i18n-micro:
-        specifier: ^1.66.0
-        version: 1.66.0(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1))
+        specifier: ^1.67.0
+        version: 1.67.0(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1))
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.2)
@@ -3239,8 +3239,8 @@ packages:
   nuxt-i18n-micro-types@1.0.0:
     resolution: {integrity: sha512-R0SGr7rFziiF2u73GTOd4Sv3HIumrwBCMPXBCBXSlBM1vIahIDrOK3NFpH66YcGNLpoDcGjij/7MUG+O6Nay6w==}
 
-  nuxt-i18n-micro@1.66.0:
-    resolution: {integrity: sha512-XTCFjxOHjsqO2gihtfvTrXj/pvYrjnXoBWj4oP/e0dD/xETJbWBPiWuiRFM8HZ54+kznw71oRbNL45G6ED4Jsw==}
+  nuxt-i18n-micro@1.67.0:
+    resolution: {integrity: sha512-p8hNxFIivS0Vos5/8lXggTLiWzI8Yo0WPvfiOO8PzYMrAFexv2BJoHWuNlOV6Qg6/71atXK/LCxvMR+3g5fh6Q==}
 
   nuxt@3.14.1592:
     resolution: {integrity: sha512-roWAQH4Mb6WY72cNos+YVw0DgTCNAhNygiAMCedM7hbX6ESTR2n3VH7tU0yIWDPe/hfFdii4M4wWTTNHOtS44g==}
@@ -8221,7 +8221,7 @@ snapshots:
 
   nuxt-i18n-micro-types@1.0.0: {}
 
-  nuxt-i18n-micro@1.66.0(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1)):
+  nuxt-i18n-micro@1.67.0(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1)):
     dependencies:
       '@nuxt/devtools-kit': 1.7.0(magicast@0.3.5)(rollup@4.24.4)(vite@5.4.11(@types/node@22.8.1)(terser@5.34.1))
       '@nuxt/kit': 3.15.2(magicast@0.3.5)(rollup@4.24.4)
