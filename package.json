@@ -13,21 +13,21 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@nuxt/eslint": "^0.7.2",
-    "@nuxthub/core": "^0.8.7",
-    "@unhead/vue": "^1.11.13",
+    "@nuxt/eslint": "^0.7.6",
+    "@nuxthub/core": "^0.9.0",
+    "@unhead/vue": "^1.11.20",
     "@vercel/kv": "^3.0.0",
-    "nuxt": "^3.14.1592",
-    "nuxt-i18n-micro": "^1.68.0",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "nuxt": "^3.20.0",
+    "nuxt-i18n-micro": "^2.5.0",
+    "vue": "^3.5.23",
+    "vue-router": "^4.6.3"
   },
   "devDependencies": {
-    "@nuxt/eslint-config": "^0.7.2",
-    "eslint": "^9.16.0",
-    "typescript": "^5.7.2",
-    "vue-tsc": "^2.1.10",
-    "wrangler": "^3.92.0"
+    "@nuxt/eslint-config": "^0.7.6",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^2.2.12",
+    "wrangler": "^3.114.15"
   },
-  "packageManager": "pnpm@9.14.4"
+  "packageManager": "pnpm@9.15.9"
 }

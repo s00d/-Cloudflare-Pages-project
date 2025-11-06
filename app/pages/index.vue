@@ -10,6 +10,10 @@ const color = useState('color', () => colors[Math.floor(Math.random() * colors.l
       {{ $t('generic.welcome') }}
     </h1>
 
+    <h2>
+      {{ $t('version') }}
+    </h2>
+
     <div id="locale-switcher">
       <i18n-switcher />
     </div>
