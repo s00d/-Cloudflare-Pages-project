@@ -1,11 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // https://nuxt.com/modules
-  extends: [
-    './base',
-  ],
   modules: [
-    '@nuxthub/core',
+    // '@nuxthub/core',
     'nuxt-i18n-micro',
     '@nuxt/eslint',
   ],
@@ -24,32 +21,12 @@ export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
   compatibilityDate: '2024-07-30',
 
-  // nitro: {
-  //   storage: {
-  //     'i18n-locales': {
-  //       driver: 'vercelKV',
-  //     },
-  //   },
-  // },
-
   // https://hub.nuxt.com/docs/getting-started/installation#options
-  // hub: {},
-
-  // https://eslint.nuxt.com
-  eslint: {
-    config: {
-      stylistic: {
-        quotes: 'single',
-      },
-    },
-  },
+  hub: {},
 
   i18n: {
     locales: [
       { code: 'en', iso: 'en_EN', displayName: 'English' },
-      { code: 'de', iso: 'de_DE', displayName: 'German' },
-      { code: 'fr', iso: 'fr_FR', displayName: 'French' },
-      { code: 'ru', iso: 'ru_RU', displayName: 'Russian' },
       { code: 'es', iso: 'es_ES', displayName: 'Spanish' },
       { code: 'it', iso: 'it_IT', displayName: 'Italian' },
     ],
@@ -60,5 +37,14 @@ export default defineNuxtConfig({
     fallbackLocale: 'en',
     meta: false,
     autoDetectLanguage: false,
+  },
+
+  // https://eslint.nuxt.com
+  eslint: {
+    config: {
+      stylistic: {
+        quotes: 'single',
+      },
+    },
   },
 })
