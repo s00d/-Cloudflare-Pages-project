@@ -1,5 +1,10 @@
 {
   "generic": {
     "welcome": "Welcome to the page!"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
   }
 }

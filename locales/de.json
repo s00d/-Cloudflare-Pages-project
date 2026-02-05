@@ -1,5 +1,10 @@
 {
   "generic": {
     "welcome": "Willkommen auf der Seite!"
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "contact": "Kontakt"
   }
 }

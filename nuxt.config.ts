@@ -55,7 +55,7 @@ export default defineNuxtConfig({
     ],
     defaultLocale: 'en',
     includeDefaultLocaleRoute: true,
-    disablePageLocales: true,
+    disablePageLocales: false,
     translationDir: 'locales',
     fallbackLocale: 'en',
     meta: false,
